@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Chặn Cuộc Gọi</string>
+    <string name="enter_phone_number">Nhập số điện thoại cần chặn</string>
+    <string name="add_to_block_list">Thêm vào danh sách chặn</string>
+    <string name="blocked_numbers_list">Danh sách số điện thoại bị chặn:</string>
+    <string name="delete">Xóa</string>
+    <string name="setup_title">Thiết lập để chặn cuộc gọi:</string>
+    <string name="setup_description">Để tự động chặn cuộc gọi, ứng dụng cần được đặt làm ứng dụng điện thoại mặc định. Nhấn nút bên dưới để thiết lập.</string>
+    <string name="set_default_dialer">Đặt làm ứng dụng điện thoại mặc định</string>
+    <string name="number_added">Đã thêm %s vào danh sách chặn</string>
+    <string name="please_enter_number">Vui lòng nhập số điện thoại</string>
+    <string name="permission_required">Ứng dụng cần các quyền này để hoạt động chính xác</string>
+    <string name="blocked_call_notification">Cuộc gọi từ số bị chặn</string>
+    <string name="blocked_call_message">Đang có cuộc gọi từ số bị chặn: %s</string>
+    <string name="blocking_activated">Chặn cuộc gọi đã được kích hoạt!</string>
+    <string name="blocking_description">Ứng dụng sẽ tự động từ chối cuộc gọi từ các số điện thoại trong danh sách chặn.</string>
+</resources>

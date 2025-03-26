@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ứng dụng trả lời tự động cuộc gọi nhỡ"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ứng dụng này sẽ tự động gửi tin nhắn SMS đến người gọi nhỡ với nội dung thông báo rằng bạn đang bận và sẽ gọi lại sau."
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu ý: Ứng dụng cần được cấp các quyền đọc trạng thái điện thoại và gửi tin nhắn SMS để hoạt động đúng."
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tin nhắn tự động:"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tin nhắn tự động"
+        android:text="Xin lỗi, tôi đang bận. Tôi sẽ gọi lại cho bạn sau."
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top|start"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonSaveMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu tin nhắn" />
+
+    <Switch
+        android:id="@+id/switchAutoReply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bật/tắt trả lời tự động"
+        android:checked="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trạng thái: Đang chờ cấp quyền..."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
