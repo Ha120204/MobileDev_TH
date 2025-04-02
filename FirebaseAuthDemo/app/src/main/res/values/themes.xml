@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.FirebaseAuthDemo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#FF4081</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">#212121</item>
+        <item name="android:textColorSecondary">#757575</item>
+
+        <!-- Window background -->
+        <item name="android:windowBackground">@color/background_color</item>
+
+        <!-- Button styles -->
+        <item name="buttonStyle">@style/CustomButtonStyle</item>
+
+        <!-- EditText styles -->
+        <item name="editTextStyle">@style/CustomEditTextStyle</item>
+    </style>
+</resources>

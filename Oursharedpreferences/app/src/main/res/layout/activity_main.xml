@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:ems="10"
+        android:hint="Your telephone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btn_Load"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:text="Load" />
+
+    <Button
+        android:id="@+id/btn_Save"
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:text="TextView" />
+</LinearLayout>
